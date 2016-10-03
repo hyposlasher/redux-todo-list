@@ -21,31 +21,12 @@
   },
   "homepage": "https://github.com/jackielii/simplest-redux-example#readme",
   "dependencies": {
-    "react": "^0.14.1",
-    "react-dom": "^0.14.7",
-    "react-redux": "^4.0.0",
-    "redux": "^3.0.4"
-  },
-  "devDependencies": {
-    "babel-core": "^6.0.16",
-    "babel-loader": "^6.0.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.0.15",
-    "babel-plugin-transform-react-constant-elements": "^6.0.14",
-    "babel-preset-es2015": "^6.0.15",
-    "babel-preset-react": "^6.0.15",
-    "react-hot-loader": "^1.3.0",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.1",
-    "transform": [
-      [ "babelify", { "presets": ["es2015", "react"] } ]
-    ]
-  },
-  "homepage": "https://github.com/jackielii/simplest-redux-example#readme",
-  "dependencies": {
+    "axios": "^0.14.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-redux": "^4.4.5",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.6.0",
